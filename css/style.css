@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(115, 135, 135);
+    border: 1px solid black;
+    line-height: 90px;
+    font-size: 38px;
+    padding: 10px;
+    padding-left: 30px; 
+}
+.conteiner{
+    height: 700px;
+    background-color: red;
+    border: 1px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+ul {
+    list-style-type: none;
+    }
+    
