@@ -13,25 +13,33 @@ header{
     height: 90px;
     width: 100%;
     background-color:#FFFFFF;
-    line-height: 90px;
-    font-size: 38px;
-    padding: 10px;
-    padding-left: 30px; 
+    line-height: 90px;  
+    margin-bottom: 50px;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+.toboolist{
+    font-size: 68px;
+    margin-left: 10px;
 }
 /*main conteiner*/
-.conteiner{
-    height: 700px;
+.conteiner{  
     margin-left: 12%;
     margin-right: 12%;
-    margin-top: 50px;
+    margin-bottom: 10px;
     padding:10px 10%;
     background-color:#FFFFFF;
-  
 }
 /* button add section*/
 .add-task{
     height: 50px;
     line-height: 50px;
+    margin-bottom: 50px;
+
 } 
 .button{
     height: 30px;
