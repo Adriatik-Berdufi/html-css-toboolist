@@ -17,17 +17,21 @@
     <main>
         <div class="conteiner">
             <div class="add-task">
-                <input type="button" value="Add Task" >
-                <input type="button" value="Add Section ">
+                <input class="button" type="button" value="Add Task" >
+                <input class="button" type="button" value="Add Section ">
             </div>
             <section>
-                <h2>New Task</h2>
+                <div class="task">&#9662 New Task</div> 
                 <ul>
-                    <li>Quarterly Newsletter</li>
+                    <li>
+                        <span class="check-box"> &check;</span>
+                        Quarterly Newsletter
+                        <span class="task-description">Editorial</span>
+                    </li>
                 </ul>
             </section>
             <section>
-                <h2>Today</h2>
+                <div class="task">&#9662 Today</div> 
                 <ul>
                     <li>Recruiting blog post</li>
                     <li>Mobile app luaunch</li>
@@ -36,7 +40,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Upcoming</h2>
+                <div class="task">&#9662 Upcoming</div> 
                 <ul>
                     <li>Schedule meeting with Alex</li>
                     <li>Homepage refresh</li>

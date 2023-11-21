@@ -21,8 +21,47 @@ header{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 ul {
     list-style-type: none;
-    }
+    font-size: 20px;
+    height: auto;
+    background-color: beige;
     
+}
+.add-task{
+    height: 50px;
+    background-color: aqua;
+    line-height: 50px;
+} 
+.button{
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    background-color: rgb(6, 184, 255);
+    border-radius: 5px;
+}   
+
+.task{
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: 40px;
+    line-height: 50px;
+    font-size: 24px;
+}
+.check-box{  
+    padding: 0 3px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    margin-right: 10px;   
+}
+.task-description{
+    font-size: 12px;
+    padding: 0 10px;
+    background-color: lightgreen;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
