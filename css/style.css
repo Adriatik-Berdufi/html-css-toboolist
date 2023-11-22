@@ -1,119 +1,115 @@
 /* Reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color:#F7F8F9 ;
-    font-family: 'Roboto', sans-serif;
+body {
+  /*background-color:#F7F8F9 ;*/
+  background-color: #45abea;
+  font-family: "Roboto", sans-serif;
 }
 
 /*header*/
-header{
-    height: 90px;
-    width: 100%;
-    background-color:#FFFFFF;
-    line-height: 90px;  
-    margin-bottom: 50px;
+header {
+  background-color: #ffffff;
+  margin-bottom: 50px;
 }
-.logo{
-    padding-top: 10px;
-    margin-left: 20px;
-    width: 70px;
-    height: 70px;
+.logo {
+  line-height: 90px;
+  margin-left: 15px;
+  vertical-align: middle;
 }
-.toboolist{
-    font-size: 62px;
-    font-weight: 900;
-    margin-left: 10px;
+.toboolist {
+  line-height: 90px;
+  font-size: 24px;
+  font-weight: 600;
+  vertical-align: middle;
+  display: inline-block;
 }
 /*main conteiner*/
-.conteiner{  
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 10px;
-    padding:10px 10%;
-    background-color:#FFFFFF;
-    border-radius: 10px;
+.conteiner {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 10px;
+  padding: 10px 10%;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 /* button add section*/
-.add-task{
-    height: 50px;
-    line-height: 50px;
-} 
-.button{
-    height: 30px;
-    width: auto;
-    padding: 5px;
-    background-color: #47ADF1;
-    border-radius: 5px;
-    border: none;
-    color: #FFFFFF;
-} 
-.button:hover{
-    background-color: whitesmoke;
-    color: gray;
-    border: 1px solid gray;
-
-} 
+.add-task {
+  height: 50px;
+  line-height: 50px;
+}
+.button {
+  height: 30px;
+  width: auto;
+  padding: 5px;
+  background-color: #47adf1;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+.button:hover {
+  background-color: whitesmoke;
+  color: gray;
+  border: 1px solid gray;
+}
 /* list style*/
 ul {
-    list-style-type: none;
-    font-size: 20px;
-    height: auto;
+  list-style-type: none;
+  font-size: 20px;
+  height: auto;
 }
-li{
-    margin: 15px 0;
+li {
+  margin: 15px 0;
 }
 /*row style*/
-.task{
-    height: 50px;
-    margin-top: 40px;
-    line-height: 50px;
-    font-size: 32px;
-    font-weight: bolder;
+.task {
+  height: 50px;
+  margin-top: 40px;
+  line-height: 50px;
+  font-size: 32px;
+  font-weight: bolder;
 }
 /*check and cross style*/
-.check-box{  
-    padding: 0 3px;
-    border: 1px solid green;
-    color: green;
-    border-radius: 50%;
-    margin-right: 10px;   
+.check-box {
+  padding: 0 3px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-.cross-box{
-    padding: 0 5px;
-    border: 1px solid rgb(243, 2, 2);
-    color: rgb(247, 3, 3);
-    border-radius: 50%;
-    margin-right: 10px;
-
+.cross-box {
+  padding: 0 5px;
+  border: 1px solid rgb(243, 2, 2);
+  color: rgb(247, 3, 3);
+  border-radius: 50%;
+  margin-right: 10px;
 }
 /*task-description*/
-.task-description{
-    font-size: 12px;
-    padding: 5px 10px;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    
+.task-description {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 /* task-description background-color*/
-.editorial{
-    background-color:#45ABEA ;
+.editorial {
+  background-color: #45abea;
 }
-.goals{
-    background-color: #9C73E4;
+.goals {
+  background-color: #9c73e4;
 }
-.recruiting{
-    background-color: #64C0A9;
+.recruiting {
+  background-color: #64c0a9;
 }
-.mobile{
-    background-color: #F29E34;
+.mobile {
+  background-color: #f29e34;
 }
-.website{
-    background-color:#D863A1 ;
+.website {
+  background-color: #d863a1;
 }
-.sales{
-    background-color: #B0C926;
+.sales {
+  background-color: #b0c926;
 }
